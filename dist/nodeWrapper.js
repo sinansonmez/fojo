@@ -6,7 +6,7 @@ import crypto from 'crypto';
 function getBinaryPath() {
     const platform = os.platform();
     const arch = os.arch();
-    const base = path.join(__dirname, '../dist');
+    const base = path.join(__dirname, '../dist/bin');
     if (platform === 'linux' && arch === 'x64') {
         return path.join(base, 'linux-x64/fojo');
     }
