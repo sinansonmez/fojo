@@ -19,9 +19,6 @@
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags"
   },
-  "engines": {
-    "node": ">=18"
-  },
   "author": "Sinan Chaush (Sonmez)",
   "license": "MIT",
   "dependencies": {
