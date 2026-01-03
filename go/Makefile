@@ -15,9 +15,6 @@ cli:
 	GOOS=linux GOARCH=amd64 \
 		go build -o $(BIN_DIR)/linux-x64/fojo $(CLI_PKG)
 
-	GOOS=darwin GOARCH=amd64 \
-		go build -o $(BIN_DIR)/darwin-x64/fojo $(CLI_PKG)
-
 	GOOS=darwin GOARCH=arm64 \
 		go build -o $(BIN_DIR)/darwin-arm64/fojo $(CLI_PKG)
 
